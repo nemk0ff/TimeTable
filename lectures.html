@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БГУИР - Курс лекций</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+        }
+        h3 {
+            color: #444;
+            margin-top: 30px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .lecture-item {
+            margin-bottom: 15px;
+        }
+        .lecture-list {
+            margin-left: 20px;
+        }
+        .teacher {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.8em;
+            text-align: center;
+        }
+        .back-link {
+            display: block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<h1>Курс лекций по предметам</h1>
+
+<a href="index.html" class="back-link">← Вернуться к расписанию</a>
+
+<div id="databases">
+    <h3>Базы данных (Иванов И.И.)</h3>
+    <ol class="lecture-list">
+        <li class="lecture-item">Определение базы данных (БД) и банка данных (БнД). Состав и структура банка данных. Назначение основных компонентов банка данных.</li>
+        <li class="lecture-item">Основные признаки классификации банка данных (БнД).</li>
+        <li class="lecture-item">Основные этапы эволюции систем обработки данных. Основные отличия в концепциях обработки данных разных этапов.</li>
+        <li class="lecture-item">Взаимосвязь этапов создания базы данных (БД) и используемых моделей предметной области. Классификационная схема моделей базы данных (БД).</li>
+        <li class="lecture-item">Первичный и вторичный ключ записи. Примеры. Типология архитектур доступа к записям.</li>
+        <li class="lecture-item">Понятие ключа и индекса. Прямая и инвертированная формы индекса. Примеры.</li>
+        <li class="lecture-item">Сходство и отличие процессов обработки данных средствами файловой системы и системы управления (СУ) базы данных (БД).</li>
+        <li class="lecture-item">Характерные свойства и отличия линейных и нелинейных структур. Нелинейные структуры. Примеры.</li>
+        <li class="lecture-item">Типология простых запросов. Примеры.</li>
+        <li class="lecture-item">Назначение и особенности этапов проектирования базы данных (БД).</li>
+        <li class="lecture-item">Подходы к системному анализу предметной области. Характеристика модели информационной системы Захмана.</li>
+        <li class="lecture-item">Концептуальные модели данных. Модель «сущность-связь». Сущности, атрибуты, связи. Сущности-связи и мощности связей. Примеры.</li>
+        <li class="lecture-item">Функциональная модель IDEF0. Графический язык модели. Примеры.</li>
+        <li class="lecture-item">Диаграмма потоков данных (DFD). Графический язык диаграммы. Примеры.</li>
+        <li class="lecture-item">Основные понятия UML. Сущности и отношения. Диаграммы классов и прецедентов.</li>
+    </ol>
+</div>
+
+<div id="graphics">
+    <h3>Компьютерная графика (Петров П.П.)</h3>
+    <ol class="lecture-list">
+        <li class="lecture-item">Средства графического взаимодействия ЭВМ и человека. Классификация и краткая характеристика. История машинной графики.</li>
+        <li class="lecture-item">Аппаратные средства компьютерной графики.</li>
+        <li class="lecture-item">Математичекие основы компьютерной графики. Представление и преобразование точек и отрезков. Отображение, вращение, масштабирование.</li>
+        <li class="lecture-item">Трехмерные преобразования и проекции.</li>
+        <li class="lecture-item">Алгоритмы вычерчивания отрезков.</li>
+        <li class="lecture-item">Растровая развертка сплошных областей.</li>
+        <li class="lecture-item">Алгоритмы заполнения.</li>
+        <li class="lecture-item">Основные методы устранения ступенчатости.</li>
+        <li class="lecture-item">Отсечения:
+            <ul>
+                <li>двумерные</li>
+                <li>трехмерные</li>
+                <li>отсечение многоугольников.</li>
+            </ul>
+        </li>
+        <li class="lecture-item">Удаление невидимых линий.</li>
+    </ol>
+</div>
+
+<div id="networks">
+    <h3>Компьютерные сети (Сидоров С.С.)</h3>
+    <ol class="lecture-list">
+        <li class="lecture-item">Базовые понятия</li>
+        <li class="lecture-item">Классификация компьютерных сетей</li>
+        <li class="lecture-item">Файлообменные P2P сети</li>
+        <li class="lecture-item">P2P-сети с централизованным каталогом. Napster</li>
+        <li class="lecture-item">Частично децентрализованные сети</li>
+        <li class="lecture-item">Полностью децентрализованные сети</li>
+        <li class="lecture-item">Полностью децентрализованные сети</li>
+        <li class="lecture-item">Другие приложения P2P-сетей</li>
+        <li class="lecture-item">Структура сети Интернет</li>
+        <li class="lecture-item">Коммутация каналов и коммутация пакетов</li>
+        <li class="lecture-item">Многоуровневые сетевые модели</li>
+    </ol>
+</div>
+
+<div id="informatics">
+    <h3>Информатика (Курочка С.П.)</h3>
+    <ol class="lecture-list">
+        <li class="lecture-item">Понятие информатики</li>
+        <li class="lecture-item">Понятие информации</li>
+        <li class="lecture-item">Система кодирования информации</li>
+        <li class="lecture-item">Кодирование текстовой информации</li>
+        <li class="lecture-item">Кодирование графической информации</li>
+        <li class="lecture-item">Кодирование звуковой информации</li>
+        <li class="lecture-item">Режимы и методы передачи информации</li>
+        <li class="lecture-item">Информационные технологии</li>
+        <li class="lecture-item">Этапы развития информационных технологий</li>
+        <li class="lecture-item">Появление компьютеров и компьютерных технологий</li>
+        <li class="lecture-item">Эволюция развития персональных компьютеров</li>
+        <li class="lecture-item">Структура современных вычислительных систем</li>
+    </ol>
+</div>
+
+<div id="algorithms">
+    <h3>Алгоритмизация (Дмитриев Д.Д.)</h3>
+    <ol class="lecture-list">
+        <li class="lecture-item">Этапы решения задач на ЭВМ</li>
+        <li class="lecture-item">Алгоритм. Свойства алгоритмов</li>
+        <li class="lecture-item">Алгоритмическая конструкция ветвления</li>
+        <li class="lecture-item">Алгоритмическая конструкция цикла</li>
+        <li class="lecture-item">Использование циклов с параметром для обработки массивов</li>
+        <li class="lecture-item">История создания языка</li>
+        <li class="lecture-item">Интегрированная инструментальная оболочка (ИИО) Turbo Pascal</li>
+        <li class="lecture-item">Алфавит и программа на TP 7.0</li>
+        <li class="lecture-item">Простые типы данных</li>
+        <li class="lecture-item">Константы, переменные и оператор присваивания</li>
+        <li class="lecture-item">Операторы ввода/вывода</li>
+    </ol>
+</div>
+
+<div id="design">
+    <h3>Проектирование (Сергеенко С.С.)</h3>
+    <ol class="lecture-list">
+        <li class="lecture-item">Человеко-машинный интерфейс. Понятия, подходы, принципы.</li>
+        <li class="lecture-item">Этапы разработки пользовательского интерфейса</li>
+        <li class="lecture-item">Определение функциональных требований к интерфейсу</li>
+        <li class="lecture-item">Анализ пользователей: методы и средства</li>
+        <li class="lecture-item">Прототипирование</li>
+    </ol>
+</div>
+
+<div class="footer">
+    ©Все права защищены. 2016 год
+</div>
+</body>
+</html>
